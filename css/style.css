@@ -1,0 +1,205 @@
+body {
+  background-color: #204051;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Passion One";
+}
+
+a {
+  color: inherit;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 2% 13%;
+}
+
+/* Heading */
+.section-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 5% 3% 3%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+/* Profile */
+#profile .container-fluid {
+  padding: 5% 12%;
+  text-align: right;
+  color: #fff;
+  margin-bottom: 120px;
+}
+
+.my-profile {
+  position: relative;
+}
+
+.about-me {
+  font-family: "Fondamento";
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 280px;
+  width: 100%;
+  height: 50px;
+  margin-right: auto;
+  font-size: 1rem;
+  /* float: right; */
+}
+
+.name {
+  position: absolute;
+  top: 150px;
+  left: 280px;
+}
+
+/* Title image */
+.title-img {
+  width: 50%;
+  right: 50%;
+  /* bottom: 0px; */
+  /* float: left; */
+  position: absolute;
+}
+
+@media (max-width:1180px) {
+  #profile .container-fluid {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+  }
+
+  .about-me {
+    position: static;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .name {
+    position: relative;
+    text-align: center;
+    left: 0;
+    top: 100px;
+    padding: 1%;
+  }
+}
+
+/* Education */
+#education {
+  background-color: #e7dfd5;
+  font-family: "Montserrat";
+}
+
+.education-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.education-box {
+  padding: 1%;
+}
+
+.education-icon {
+  color: #84a9ac;
+  margin-bottom: 1rem;
+}
+
+.education-icon:hover {
+  color: #204051;
+}
+
+/* Experience */
+#experience {
+  background: #204051;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.studio-ex-table {
+  color: #fff;
+}
+
+/* Skills */
+#skills {
+  background-color: #e7dfd5;
+}
+
+.soft-skill-img {
+  width: 50%;
+  margin: 20px 20px 50px;
+}
+
+/* Competition */
+#competition {
+  background: #204051;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+/* Work */
+#work {
+  background-color: #fff;
+  font-family: "Montserrat";
+}
+
+.work-img {
+  width: 50%;
+  /* border-radius: 100%; */
+  margin: 20px;
+  padding: 10px
+}
+
+.work-text {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+.carousel-indicators li {
+  background-color: grey;
+}
+
+/* Co-curricular */
+#Co-curricular {
+  background-color: #e7dfd5;
+  font-family: "Montserrat";
+}
+
+/* Interests */
+#interests {
+  background: #204051;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.interest-icon {
+  font-size: 3rem;
+}
+
+/* Footer */
+#footer {
+  background-color: #e7dfd5;
+}
+
+.footer-icons {
+  margin: 40px 20px;
+}
