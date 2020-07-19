@@ -161,8 +161,9 @@ a {
 
 .work-img {
   width: 50%;
+  height: 80%;
   margin: 20px;
-  padding: 10px
+  padding: 10px;
 }
 
 .work-text {
@@ -199,4 +200,30 @@ a {
 
 .footer-icons {
   margin: 40px 20px;
+}
+
+/*Art Gallery*/
+
+#artGallery {
+  background-color: white;
+}
+
+.art-img {
+  width: 100%;
+  height: 90%;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Art images animation */
+
+.hovereffect  {
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect:hover  {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
 }
